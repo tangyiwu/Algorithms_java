@@ -1,7 +1,7 @@
 package com.company.pattern.singleton;
 
 /**
- * Created by yixin on 16/9/8.
+ * Created by tangyiwu on 16/9/8.
  * 饿汉模式
  */
 public class Singleton1 {

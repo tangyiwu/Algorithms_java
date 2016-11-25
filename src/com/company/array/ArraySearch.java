@@ -1,7 +1,7 @@
 package com.company.array;
 
 /**
- * Created by yixin on 16/9/8.
+ * Created by tangyiwu on 16/9/8.
  * 数组查找算法
  */
 public class ArraySearch {

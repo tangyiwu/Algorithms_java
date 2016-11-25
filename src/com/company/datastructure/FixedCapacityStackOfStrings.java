@@ -1,7 +1,7 @@
 package com.company.datastructure;
 
 /**
- * Created by yixin on 2016/11/22.
+ * Created by tangyiwu on 2016/11/22.
  */
 public class FixedCapacityStackOfStrings implements Stack<String> {
     private String[] s;

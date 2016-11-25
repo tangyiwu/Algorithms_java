@@ -3,7 +3,7 @@ package com.company.array;
 import com.company.datastructure.Node;
 
 /**
- * Created by yixin on 16/10/11.
+ * Created by tangyiwu on 16/10/11.
  */
 public class RecycleSkipTakeData<T> {
 

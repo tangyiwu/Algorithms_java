@@ -1,7 +1,7 @@
 package com.company.datastructure;
 
 /**
- * Created by yixin on 2016/11/15.
+ * Created by tangyiwu on 2016/11/15.
  */
 public class MyArrayList<E> implements MyCollection<E> {
     private static final int DEFAULT_CAPACITY = 10;

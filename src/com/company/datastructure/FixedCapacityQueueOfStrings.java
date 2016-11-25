@@ -1,7 +1,7 @@
 package com.company.datastructure;
 
 /**
- * Created by yixin on 2016/11/25.
+ * Created by tangyiwu on 2016/11/25.
  */
 public class FixedCapacityQueueOfStrings implements Queue<String> {
     private String[] data;
