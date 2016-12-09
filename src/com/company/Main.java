@@ -122,12 +122,12 @@ public class Main {
         }
 
         Queue queue2 = new FixedCapacityQueueOfStrings(10);
-        for (int i=0;i<12;i++) {
+        for (int i = 0; i < 12; i++) {
             queue2.enqueue(String.valueOf(i));
         }
         System.out.println();
         while (!queue2.isEmpty()) {
-            System.out.print(queue2.dequeue()+",");
+            System.out.print(queue2.dequeue() + ",");
         }
     }
 
@@ -154,5 +154,9 @@ public class Main {
         heap.maxHeapify(a, 1);
         System.out.println(ArrayUtil.print(a));
         System.out.println("heap max value = " + a[1]);
+
+        int[] b = {0, 2, 3, 1, 8, 5, 12, 7, 6, 10, 11, 4, 9, 8};
+        heap.buildMaxHeap(b);
+        System.out.println(ArrayUtil.print(b));
     }
 }

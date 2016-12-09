@@ -1,3 +1,6 @@
 .idea/*
 out/*
 projects.iml
+.idea/workspace.xml
+out/
+.idea/
