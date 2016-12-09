@@ -17,6 +17,8 @@ public class Main {
         testStack();
 
         testQueue();
+
+        testBinaryHeap();
     }
 
     private static void testRing() {
@@ -127,5 +129,30 @@ public class Main {
         while (!queue2.isEmpty()) {
             System.out.print(queue2.dequeue()+",");
         }
+    }
+
+    public static void testBinaryHeap() {
+        System.out.println();
+        System.out.println("-------test binary heap-------");
+        BinaryHeap heap = new BinaryHeap();
+        int[] a = new int[12];
+        a[1] = 11;
+        a[2] = 9;
+        a[3] = 10;
+        a[4] = 5;
+        a[5] = 6;
+        a[6] = 7;
+        a[7] = 8;
+        a[8] = 1;
+        a[9] = 2;
+        a[10] = 3;
+        a[11] = 4;
+
+        // delete root node value
+        a[1] = 4;
+        a[11] = 0;
+        heap.maxHeapify(a, 1);
+        System.out.println(ArrayUtil.print(a));
+        System.out.println("heap max value = " + a[1]);
     }
 }
