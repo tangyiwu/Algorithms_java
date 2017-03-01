@@ -19,6 +19,8 @@ public class Main {
         testQueue();
 
         testBinaryHeap();
+
+        testPrivateStatic();
     }
 
     private static void testRing() {
@@ -158,5 +160,12 @@ public class Main {
         int[] b = {0, 2, 3, 1, 8, 5, 12, 7, 6, 10, 11, 4, 9, 8};
         heap.buildMaxHeap(b);
         System.out.println(ArrayUtil.print(b));
+    }
+
+    public static void testPrivateStatic() {
+        for (int i = 0; i < 10; i++) {
+            PrivateStaticFieldTestDemo demo = new PrivateStaticFieldTestDemo();
+            demo.printDescription();
+        }
     }
 }
